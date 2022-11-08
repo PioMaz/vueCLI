@@ -1,0 +1,48 @@
+{
+  "name": "hello",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "serve -s dist",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "bootstrap-vue-3": "^0.4.6",
+    "core-js": "^3.26.0",
+    "npm-check-updates": "^16.3.18",
+    "vue": "^3.2.41",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^7.5.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "vue-template-compiler": "^2.7.13"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
